@@ -23,7 +23,7 @@ def get_formatted_xml(pathData) -> str:
 """
 
 
-def convert_svg_to_xml(svg_file: str, xml_file: str):
+def convert_svg_to_xml(svg_file: str, xml_file: str) -> None:
     path_data: str = get_path_data(svg_file)
     formatted_xml: str = get_formatted_xml(path_data)
 
